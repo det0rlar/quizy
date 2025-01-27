@@ -1,0 +1,216 @@
+[
+    {
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which company invented React?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What's the fundamental building block of React apps?",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What's the name of the syntax we use to describe the UI in React components?",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "How does data flow naturally in React apps?",
+      "options": [
+        "From parents to children",
+        "From children to parents",
+        "Both ways",
+        "The developers decides"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "When to use derived state?",
+      "options": [
+        "Whenever the state should not trigger a re-render",
+        "Whenever the state can be synchronized with an effect",
+        "Whenever the state should be accessible to all components",
+        "Whenever the state can be computed from another state variable"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "What triggers a UI re-render in React?",
+      "options": [
+        "Running an effect",
+        "Passing props",
+        "Updating state",
+        "Adding event listeners to DOM elements"
+      ],
+      "correctOption": 2,
+      "points": 20,
+      "difficulty": "easy"
+    },
+    {
+      "question": "When do we directly \"touch\" the DOM in React?",
+      "options": [
+        "When we need to listen to an event",
+        "When we need to change the UI",
+        "When we need to add styles",
+        "Almost never"
+      ],
+      "correctOption": 3,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "In what situation do we use a callback to update state?",
+      "options": [
+        "When updating the state will be slow",
+        "When the updated state is very data-intensive",
+        "When the state update should happen faster",
+        "When the new state depends on the previous state"
+      ],
+      "correctOption": 3,
+      "points": 20,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the purpose of the useEffect hook in React?",
+      "options": [
+        "To manage component state",
+        "To perform side effects in function components",
+        "To create context",
+        "To optimize performance"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the virtual DOM in React?",
+      "options": [
+        "A direct representation of the actual DOM",
+        "A lightweight copy of the actual DOM",
+        "A method to directly manipulate the DOM",
+        "A way to handle events in React"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of keys in React?",
+      "options": [
+        "To uniquely identify elements in the DOM",
+        "To optimize the performance of the application",
+        "To handle events in React",
+        "To manage component state"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the difference between state and props in React?",
+      "options": [
+        "State is immutable, props are mutable",
+        "State is used for passing data, props are used for managing data",
+        "State is managed within the component, props are passed to the component",
+        "State is used for styling, props are used for logic"
+      ],
+      "correctOption": 2,
+      "points": 20,
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the purpose of the useState hook in React?",
+      "options": [
+        "To manage side effects",
+        "To manage component state",
+        "To create context",
+        "To handle events"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "difficulty": "easy"
+    },
+    {
+      "question": "How do you pass data from a parent to a child component in React?",
+      "options": [
+        "Using state",
+        "Using props",
+        "Using context",
+        "Using refs"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of the useContext hook in React?",
+      "options": [
+        "To manage component state",
+        "To perform side effects",
+        "To access context values",
+        "To handle events"
+      ],
+      "correctOption": 2,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of the useReducer hook in React?",
+      "options": [
+        "To manage complex state logic",
+        "To perform side effects",
+        "To create context",
+        "To handle events"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "difficulty": "hard"
+    },
+    {
+      "question": "What is the purpose of the useMemo hook in React?",
+      "options": [
+        "To memoize expensive calculations",
+        "To manage component state",
+        "To create context",
+        "To handle events"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of the useCallback hook in React?",
+      "options": [
+        "To memoize functions",
+        "To manage component state",
+        "To create context",
+        "To handle events"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "question": "What is the purpose of the useRef hook in React?",
+      "options": [
+        "To create a mutable object",
+        "To manage component state",
+        "To create context",
+        "To handle events"
+      ],
+      "correctOption": 0,
+      "points": 20,
+      "difficulty": "easy"
+    }
+]
